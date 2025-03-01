@@ -20,6 +20,7 @@
         default = simple
         autoSetupRemote = true
         followTags = true
+# prune - means remove local branches if they were removed remotely
 [fetch]
         prune = true
         pruneTags = true
